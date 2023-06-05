@@ -1,0 +1,20 @@
+div{
+  display: min-content; 
+  float: center;
+  background-color: lightgray;
+  width: 200px;
+  border-style: none;
+  border-radius: 30px;
+  padding: 10px;
+  margin: 10px;
+}
+  
+img{
+  margin-right: 7px;
+  width:16px;
+  height: 17px;
+}
+a{
+  text-decoration-line: none;
+  text-decoration: black;
+}
