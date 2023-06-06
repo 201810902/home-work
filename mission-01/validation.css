@@ -17,4 +17,5 @@ img{
 a{
   text-decoration-line: none;
   text-decoration: black;
+  color:inherit;
 }
