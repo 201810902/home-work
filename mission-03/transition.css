@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+li {
+  list-style: none;
+  padding: 5px;
+  /* align-items: center; */
+  /* display: inline-block; */
+  margin-left: 10px;
+  margin-right: auto;
+}
+
+.relatedcite {
+  /* position: absolute; */
+  /* position: relative; */
+  border: solid 1px #A3A3A3;
+  border-radius: 5px;
+  width: 200px;
+  /* text-align: center; */
+  background-color: #DFDFDF;
+  transition-property: background;
+  transition-duration: 5s;
+  transition-timing-function: ease-in-out;
+  overflow: hidden;
+}
+
+.relatedcite:hover {
+  height: 35px;
+  /* top: -0.6rem; */
+
+}
+
+header {
+  appearance: none;
+  -webkit-appearance: none;
+  margin: 13px;
+  font-weight: 700;
+}
+
+span {
+  appearance: none;
+  -webkit-appearance: none;
+  color: #ED552F;
+}
+
+
+.citelist {
+  border: solid 1px #A3A3A3;
+  width: 166px;
+  margin: 12px;
+  background-color: white;
+}
+
+.citelist {
+  border-radius: 5px;
+  height: 145px;
+}
