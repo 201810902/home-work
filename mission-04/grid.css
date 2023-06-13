@@ -1,0 +1,84 @@
+/* 전체 섹션 */
+.news {
+  display: grid;
+  width: 380px;
+  height: 200px;
+
+}
+
+/* 헤더 영역 */
+.newsheader {
+  display: inline;
+}
+
+.newsheader:after{
+  content: "";
+  border-bottom: 1px solid lightgray;
+  width: 266px;
+  display: block;
+  margin-top: 30px;
+}
+
+
+h3 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #ED552F;
+  float: left;
+  margin-top: 0;
+}
+
+.plusbutton {
+  /* margin-right: 0; */
+  float: right;
+  border-style: none;
+  background: none;
+  font-size: 16px;
+  font-weight: 400;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+span {
+  color: #447231;
+  font-weight: 700;
+  text-shadow: none;
+}
+
+/* 콘텐츠 영역 */ 
+figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+figcaption {
+  width: max-content;
+}
+
+img {
+  box-shadow: 0px 15px 15px 5px #AAAAAA;
+}
+
+.newstitle {
+  font-weight: 700;
+}
+
+.newscontents {
+  display: grid;
+  font-size: 14px;
+  grid-template-columns: 112px 251px;
+  /* grid-template-areas:
+    "img ct"; */
+  grid-column-gap: 37px;
+}
+
+
+/* .news-image {
+  grid-area: img;
+}
+
+.summary {
+  grid-area: ct;
+} */
+
