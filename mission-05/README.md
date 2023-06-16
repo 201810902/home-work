@@ -19,3 +19,5 @@ list-style:none을 통해 리스트 요소의 기본 마커를 없앴습니다.
 넘버링 했습니다. 이때 content 속성을 사용하였습니다. content속성 중 숫자를
 자동으로 생성하는 content: counter를 사용했습니다. 
 
+
+화살표 이미지를 삽입하기 위해 sprite 기법을 활용하였습니다.
